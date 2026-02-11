@@ -1,0 +1,6 @@
+{
+    "\/start": "Bot\\Commands\\Start",
+    "\/generic": "Bot\\Commands\\Generic",
+    "\/sendphoto": "Bot\\Commands\\SendPhoto",
+    "\/help": "Bot\\Commands\\Help"
+}
