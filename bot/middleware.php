@@ -1,5 +1,6 @@
 <?php
 
+use Bot\Middlewares\AuthMiddleware;
 use Bot\Middlewares\UpdateLoggerMiddleware;
 
 return [
@@ -26,6 +27,6 @@ return [
 
     // Middleware por COMANDO específico (sin /)
     'commands' => [
-
+        'broadcast' => AuthMiddleware::class
     ],
 ];
