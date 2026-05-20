@@ -1,1 +1,5 @@
-[]
+{
+    "confirm": "Bot\\Callbacks\\ConfirmCallback",
+    "delete": "Bot\\Callbacks\\DeleteCallback",
+    "settings": "Bot\\Callbacks\\SettingsCallback"
+}

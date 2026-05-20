@@ -1,6 +1,9 @@
 {
+    "\/talk": "Bot\\Commands\\Talk",
+    "\/echo": "Bot\\Commands\\Ecko",
     "\/start": "Bot\\Commands\\Start",
+    "\/broadcast": "Bot\\Commands\\Broadcast",
     "\/generic": "Bot\\Commands\\Generic",
-    "\/sendphoto": "Bot\\Commands\\SendPhoto",
+    "\/photo": "Bot\\Commands\\Photo",
     "\/help": "Bot\\Commands\\Help"
 }
