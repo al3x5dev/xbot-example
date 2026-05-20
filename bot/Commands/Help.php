@@ -19,7 +19,12 @@ class Help extends Commands
         // key   => command name
         // value => command description
         foreach ($this->getCommandsList() as $key => $value) {
-            $message .= "$key - $value\n";
+            if (!$this->isAdmin() && $key == '\broadcast') {
+                continue;
+            }
+            if ($key != '/generic') {
+                $message .= "$key - $value\n";
+            }
         }
 
         $this->reply(

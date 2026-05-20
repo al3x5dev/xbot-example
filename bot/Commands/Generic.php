@@ -16,6 +16,6 @@ class Generic extends Commands
     
     public static function description(): string
     {
-        return 'Generic command handler or text messages';
+        return 'Generic command handler or text messages, run to /help';
     }
 }
