@@ -22,7 +22,6 @@ class Photo extends Commands
             $this->message->chat->id,
             $photo,
             caption: FormatHelper::bold('📸 This is a PHP photo!'),
-            parse_mode:'HTML'
         );
     }
 

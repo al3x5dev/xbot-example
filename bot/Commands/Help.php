@@ -19,6 +19,9 @@ class Help extends Commands
         // key   => command name
         // value => command description
         foreach ($this->getCommandsList() as $key => $value) {
+            if ($key == 'Greet') {
+                continue;
+            }
             if (!$this->isAdmin() && $key == '\broadcast') {
                 continue;
             }

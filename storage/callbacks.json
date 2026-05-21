@@ -1,5 +1,5 @@
 {
-    "confirm": "Bot\\Callbacks\\ConfirmCallback",
-    "delete": "Bot\\Callbacks\\DeleteCallback",
-    "settings": "Bot\\Callbacks\\SettingsCallback"
+    "option1": "Bot\\Callbacks\\Option1",
+    "option2": "Bot\\Callbacks\\Option2",
+    "option3": "Bot\\Callbacks\\Option3"
 }
