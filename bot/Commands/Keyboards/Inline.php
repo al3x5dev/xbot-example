@@ -2,11 +2,11 @@
 
 namespace Bot\Commands\Keyboards;
 
-use Al3x5\xBot\Commands;
+use Al3x5\xBot\Telegram\Actions\Commands;
 
 use Al3x5\xBot\Attributes\Command;
-use Al3x5\xBot\Telegram\Factorys\InlineButton;
-use Al3x5\xBot\Telegram\Factorys\Keyboard;
+use Al3x5\xBot\Telegram\Factories\InlineButton;
+use Al3x5\xBot\Telegram\Factories\Keyboard;
 
 #[Command('/inline')]
 class Inline extends Commands

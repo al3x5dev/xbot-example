@@ -2,11 +2,11 @@
 
 namespace Bot\Commands\Keyboards;
 
-use Al3x5\xBot\Commands;
+use Al3x5\xBot\Telegram\Actions\Commands;
 
 use Al3x5\xBot\Attributes\Command;
-use Al3x5\xBot\Telegram\Factorys\Keyboard;
-use Al3x5\xBot\Telegram\Factorys\ReplyButton;
+use Al3x5\xBot\Telegram\Factories\Keyboard;
+use Al3x5\xBot\Telegram\Factories\ReplyButton;
 
 #[Command('/reply')]
 class Reply extends Commands

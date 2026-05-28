@@ -2,8 +2,8 @@
 
 namespace Bot\Conversations;
 
-use Al3x5\xBot\Conversations;
-use Al3x5\xBot\FormatHelper;
+use Al3x5\xBot\Telegram\Actions\Conversations;
+use Al3x5\xBot\Telegram\FormatHelper;
 
 class RegisterConversation extends Conversations
 {
@@ -43,7 +43,7 @@ class RegisterConversation extends Conversations
     {
         $age = $this->update->message->getText();
 
-        if (!is_int($age) && $age < 1 || $age > 150) {
+        if (!is_numeric($age) || (int)$age < 1 || (int)$age > 150) {
             $this->reply("Please enter a valid age:");
             return;
         }

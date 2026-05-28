@@ -2,11 +2,10 @@
 
 namespace Bot\Commands;
 
-use Al3x5\xBot\Commands;
+use Al3x5\xBot\Telegram\Actions\Commands;
 
 use Al3x5\xBot\Attributes\Command;
-use Al3x5\xBot\Events;
-use Al3x5\xBot\FormatHelper;
+use Al3x5\xBot\Telegram\FormatHelper;
 
 #[Command('/help')]
 class Help extends Commands

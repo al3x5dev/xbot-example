@@ -1,8 +1,8 @@
 <?php
 namespace Bot\Middlewares;
 
-use Al3x5\xBot\FormatHelper;
-use Al3x5\xBot\Middlewares;
+use Al3x5\xBot\Telegram\FormatHelper;
+use Al3x5\xBot\Telegram\Actions\Middlewares;
 
 class AuthMiddleware extends Middlewares
 {

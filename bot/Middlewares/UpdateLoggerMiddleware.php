@@ -4,7 +4,7 @@ namespace Bot\Middlewares;
 
 use Al3x5\xBot\Config;
 use Al3x5\xBot\Events;
-use Al3x5\xBot\Middlewares;
+use Al3x5\xBot\Telegram\Actions\Middlewares;
 
 class UpdateLoggerMiddleware extends Middlewares
 {

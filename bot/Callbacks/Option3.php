@@ -1,7 +1,7 @@
 <?php
 namespace Bot\Callbacks;
 
-use Al3x5\xBot\Callbacks;
+use Al3x5\xBot\Telegram\Actions\Callbacks;
 
 use Al3x5\xBot\Attributes\Callback;
 
