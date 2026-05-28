@@ -51,9 +51,4 @@ class RegisterConversation extends Conversations
         $this->reply("Perfect, you are $age years old");
         $this->stopConversation();
     }
-
-    public function fallback(): void
-    {
-        $this->reply('Something went wrong');
-    }
 }
